@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grocery_app/data.dart';
+import 'package:grocery_app/component/data.dart';
 
 class ItemWidget extends StatelessWidget {
   const ItemWidget({
