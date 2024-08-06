@@ -4,7 +4,7 @@ class Product {
   final String quantity;
   final String image;
   final String description;
-//konstraktor
+
   Product(
     this.name,
     this.price,
@@ -15,16 +15,16 @@ class Product {
 }
 
 final List<Product> allData = [
-  Product('Wortel', '10.000', '1kg', 'assests/img1.png',
+  Product('Wortel', '10.000', '1kg', 'assets/img1.png',
       'Terdapat banyak vitamin di dalam buah dan sayur'),
-  Product('Tomat', '10.000', '1kg', 'assests/img2.png',
+  Product('Tomat', '10.000', '1kg', 'assets/img2.png',
       'Terdapat banyak vitamin di dalam buah dan sayur'),
-  Product('Mangga', '30.000', '1kg', 'assests/img3.png',
+  Product('Mangga', '30.000', '1kg', 'assets/img3.png',
       'Terdapat banyak vitamin di dalam buah dan sayur'),
-  Product('Jagung', '20.000', '1kg', 'assests/img4.png',
+  Product('Jagung', '20.000', '1kg', 'assets/img4.png',
       'Terdapat banyak vitamin di dalam buah dan sayur'),
-  Product('Apel', '25.000', '1kg', 'assests/img5.png',
+  Product('Apel', '25.000', '1kg', 'assets/img5.png',
       'Terdapat banyak vitamin di dalam buah dan sayur'),
-  Product('Nanas', '20.000', '1kg', 'assests/img6.png',
+  Product('Nanas', '20.000', '1kg', 'assets/img6.png',
       'Terdapat banyak vitamin di dalam buah dan sayur'),
 ];
