@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:grocery_app/component/data.dart';
-import 'package:grocery_app/component/item_widget.dart';
+import 'package:grocery_app/components/data.dart';
+import 'package:grocery_app/components/item_widget.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
