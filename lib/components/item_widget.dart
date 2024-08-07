@@ -19,7 +19,7 @@ class ItemWidget extends StatelessWidget {
       },
       child: Card(
         elevation: 2,
-        shadowColor: Colors.orange,
+        shadowColor: Colors.green,
         color: Colors.white,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(
@@ -42,7 +42,7 @@ class ItemWidget extends StatelessWidget {
             Text(
               'Rp ${product.price}',
               style: const TextStyle(
-                color: Colors.orange,
+                color: Colors.green,
                 fontSize: 20,
                 fontWeight: FontWeight.w600,
               ),
@@ -85,7 +85,7 @@ class ItemWidget extends StatelessWidget {
                 Icon(
                   Icons.add_shopping_cart,
                   size: 20,
-                  color: Colors.orange,
+                  color: Colors.green,
                 ),
                 SizedBox(
                   width: 2,
@@ -93,7 +93,7 @@ class ItemWidget extends StatelessWidget {
                 Text(
                   'Beli',
                   style: TextStyle(
-                    color: Colors.orange,
+                    color: Colors.green,
                     fontSize: 16,
                   ),
                 ),
@@ -105,7 +105,7 @@ class ItemWidget extends StatelessWidget {
                     Icon(
                       Icons.remove_circle_outline,
                       size: 18,
-                      color: Colors.orange,
+                      color: Colors.green,
                     ),
                     Padding(
                       padding: EdgeInsets.symmetric(
@@ -119,7 +119,7 @@ class ItemWidget extends StatelessWidget {
                     Icon(
                       Icons.add_circle_outline,
                       size: 18,
-                      color: Colors.orange,
+                      color: Colors.green,
                     ),
                   ],
                 )
